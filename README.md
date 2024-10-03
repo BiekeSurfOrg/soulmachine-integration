@@ -34,7 +34,7 @@ there are 3 components in the lockerapp
 
    There is one function 
 
-  ### createScene(func)
+  ### createScene(func) is called on component render via the `useEffect` lifecycle hook
   #### Parameters
   Takes the set function from the `useState` lifecycle hook as a parameter in order to update the UI when the soul machine is done loading.
   
