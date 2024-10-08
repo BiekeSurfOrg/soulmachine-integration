@@ -14,7 +14,7 @@ function App() {
                 className="kbc-style-button"
                 id="join-meeting-button"
                 type="button"
-                disabled={false} onClick={() => goToMeeting()}
+                onClick="{() => goToMeeting()}"
               >
                 Call a human
               </button>
