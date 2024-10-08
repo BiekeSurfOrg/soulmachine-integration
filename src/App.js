@@ -4,23 +4,7 @@ import Soul from './Soul';
 function App() {
 
     function goToMeeting() {
-        call = callAgent.join({ meetingLink: MEETING_LINK }, {});
-
-        call.on('stateChanged', () => {
-          callStateElement.innerText = call.state;
-        })
-
-        call.feature(Features.Recording).on('isRecordingActiveChanged', () => {
-          if (call.feature(Features.Recording).isRecordingActive) {
-            recordingStateElement.innerText = "This call is being recorded";
-          }
-          else {
-            recordingStateElement.innerText = "";
-          }
-        });
-        setButtonDisable(false);
-
-        teamsMeetingJoinButton.disabled = true;
+        window.location.replace("https://holopod-orig-dev-7eb584320244.herokuapp.com/teams-integration.html");
       }
 
   return (
