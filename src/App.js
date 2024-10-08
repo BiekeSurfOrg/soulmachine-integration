@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
             <div data-sm-content="teamsLink">
-              {buttonDisable ? <button
+              <button
                 className="kbc-style-button"
                 id="join-meeting-button"
                 type="button"
@@ -18,7 +18,6 @@ function App() {
               >
                 Call a human
               </button>
-              }
              </div>
        <Soul></Soul>
     </div>
