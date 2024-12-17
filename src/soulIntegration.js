@@ -7,7 +7,7 @@ export async function createScene(func){
 
    scene = new Scene({
     videoElement: videoEl,
-    apiKey: 'eyJzb3VsSWQiOiJkZG5hLWtiYy0tZXhwbG9yZXItNjczM2M3ZiIsImF1dGhTZXJ2ZXIiOiJodHRwczovL2RoLnNvdWxtYWNoaW5lcy5jbG91ZC9hcGkvand0IiwiYXV0aFRva2VuIjoiYXBpa2V5X3YxX2E0ZGQ5ZjM1LWFiMmQtNGM2Ni05MTE1LWYwODc5YTdlNWMzOCJ9',
+    apiKey: 'eyJzb3VsSWQiOiJkZG5hLWtiYy0tc291bC1zYW50YSIsImF1dGhTZXJ2ZXIiOiJodHRwczovL2RoLnNvdWxtYWNoaW5lcy5jbG91ZC9hcGkvand0IiwiYXV0aFRva2VuIjoiYXBpa2V5X3YxXzQ5Y2U4YjIxLTU1MGUtNDA4YS1iZjkyLWQ1NmIyNzlmOTYwMiJ9',
     requestedMediaDevices: { microphone: true, camera: true },
     requiredMediaDevices: { microphone: true, camera: true },
   });

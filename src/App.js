@@ -10,14 +10,14 @@ function App() {
   return (
     <div className="App">
             <div data-sm-content="teamsLink">
-              <button
+              {/* <button
                 className="kbc-style-button"
                 id="join-meeting-button"
                 type="button"
                 onClick="{() => goToMeeting()}"
               >
                 Call a human
-              </button>
+              </button> */}
              </div>
        <Soul></Soul>
     </div>
